@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LetsDine App</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">2027909794146075</string>
+    <string name="fb_login_protocol_scheme">fb2027909794146075</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+</resources>

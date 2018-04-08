@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"><![CDATA[
+    tools:context="com.example.letsdineapp.letsdineapp.Main4Activity"
+    tools:showIn="@layout/activity_main4">
+
+    ]]>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button9"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Search for a restaurant"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button4"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_centerHorizontal="true"
+            android:onClick="button2"
+            android:text="location"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="17dp"
+            android:onClick="button3"
+            android:text="login"
+            tools:layout_editor_absoluteX="278dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="36dp"
+            android:layout_marginStart="18dp"
+            android:onClick="button4"
+            android:text="view"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText"
+            android:layout_centerVertical="true"
+            android:text="Thai"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="175dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button10"
+            android:layout_below="@+id/button10"
+            android:layout_marginTop="16dp"
+            android:text="Japanese"
+            tools:layout_editor_absoluteX="210dp"
+            tools:layout_editor_absoluteY="175dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button12"
+            android:layout_alignBottom="@+id/button12"
+            android:layout_alignStart="@+id/button7"
+            android:text="Mexican"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText"
+            android:layout_centerVertical="true"
+            android:text="Chinese"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/button3"
+            android:text="Button"
+            tools:layout_editor_absoluteX="53dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button11"
+            android:layout_below="@+id/button11"
+            android:layout_marginTop="17dp"
+            android:text="Indian"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="334dp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button8"
+            android:layout_alignBottom="@+id/button8"
+            android:layout_alignStart="@+id/button12"
+            android:text="American" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

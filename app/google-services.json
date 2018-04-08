@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "583472270447",
+    "firebase_url": "https://lets-dine-app.firebaseio.com",
+    "project_id": "lets-dine-app",
+    "storage_bucket": "lets-dine-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583472270447:android:be5caa95ef5d0b05",
+        "android_client_info": {
+          "package_name": "com.example.letsdineapp.letsdineapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583472270447-77gn11l4mgis10kod0m7k933bt4rplpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.letsdineapp.letsdineapp",
+            "certificate_hash": "6e5d32662e7af5da03a4e872925e6f989ece7e24"
+          }
+        },
+        {
+          "client_id": "583472270447-8o8a6hmakbs78kdd05ngo9i779gj0u3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB96yBEgtdYHTaO8sHZG-sHoT-pNDvj1P8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583472270447-8o8a6hmakbs78kdd05ngo9i779gj0u3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
