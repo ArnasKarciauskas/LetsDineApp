@@ -1,0 +1,4 @@
+#Sun Apr 08 13:56:20 BST 2018
+base.0=C\:\\Android App\\LetsDine-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+path.0=classes.dex
+renamed.0=classes.dex
